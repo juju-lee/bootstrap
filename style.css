@@ -1,0 +1,45 @@
+body{
+    padding-top: 0px;
+}
+.box-shadow{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05),
+                0 4px 8px 0 rgba(0,0,0,0.05)
+}
+.carousel-item {
+    transition: transform .6s ease-in-out !important;
+  }
+  .container{
+    max-width: 1140px !important; 
+  }
+  #home-quote{
+    background: url('img/bg-quote.jpg')center center;
+    background-size: cover ;
+  }
+
+  .pergunta{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
+
+  .lista-plano li+li{
+    border-top: 1px solid rgba(0,0,0,.2);
+  }
+  .lista-plano li{
+    padding: 1rem;
+  }
+
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  a:active { text-decoration: underline; }
+
+  @media (max-width: 767px){
+    #homme-quote .display-4{
+        font-size: 2.5 rem;
+    }
+    body{
+        padding-top: 0px;
+    }
+    .fixed-top{
+        position: relative;
+    }
+  }
